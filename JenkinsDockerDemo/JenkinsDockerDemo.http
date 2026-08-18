@@ -1,0 +1,6 @@
+@JenkinsDockerDemo_HostAddress = http://localhost:5122
+
+GET {{JenkinsDockerDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
