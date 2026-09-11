@@ -35,4 +35,4 @@ EXPOSE 8080
 ENV ASPNETCORE_URLS=http://+:8080
 
 # Start application
-ENTRYPOINT ["dotnet", "YourProjectName.dll"]
+ENTRYPOINT ["dotnet", "JenkinsDockerDemo.dll"]
